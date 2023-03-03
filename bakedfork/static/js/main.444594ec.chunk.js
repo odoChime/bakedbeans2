@@ -29,7 +29,7 @@
 				m = (n(191), n(4)),
 				x = i.a.createContext();
 			"undefined" !== typeof window && (a = window.ethereum);
-			var h = "0x428966F44D87A93CEc453A7bd92f99ddA8A1557e",
+			var h = "0xbca0935Fb93B1D1637e91Ca4EF366f9e3a90597b",
 				O = function() {
 					var e = new f.a.providers.Web3Provider(a);
 					e.getSigner();
@@ -544,7 +544,7 @@
 									}), Object(m.jsx)("div", {
 										className: F,
 										children: Object(m.jsx)("a", {
-											href: "https://bscscan.com/address/0x428966F44D87A93CEc453A7bd92f99ddA8A1557e",
+											href: "https://bscscan.com/address/0xbca0935Fb93B1D1637e91Ca4EF366f9e3a90597b",
 											target: "_blank",
 											rel: "noopener noreferrer",
 											children: Object(m.jsx)("img", {
@@ -611,7 +611,7 @@
 						T = new URLSearchParams(A).get("ref") || "0x0000000000000000000000000000000000000000",
 						k = "",
 						B = (k.concat(T), k.concat(j)),
-						M = "0x428966F44D87A93CEc453A7bd92f99ddA8A1557e",
+						M = "0xbca0935Fb93B1D1637e91Ca4EF366f9e3a90597b",
 						S = Object(r.useState)(null),
 						N = Object(u.a)(S, 2),
 						E = N[0],
@@ -623,7 +623,7 @@
 							return Object(p.a)().wrap((function(e) {
 								for (;;) switch (e.prev = e.next) {
 									case 0:
-										return t = new f.a.providers.JsonRpcProvider("https://bsc-dataseed.binance.org"), n = new f.a.Contract(M, y, t), e.next = 4, n.contractBalance();
+										return t = new f.a.providers.JsonRpcProvider("https://data-seed-prebsc-1-s1.binance.org:8545/"), n = new f.a.Contract(M, y, t), e.next = 4, n.contractBalance(); //https://bsc-dataseed.binance.org
 									case 4:
 										a = e.sent, s = f.a.utils.formatEther(a), r = (Math.round(100 * s) / 100).toFixed(2), C(r);
 									case 8:
@@ -661,7 +661,7 @@
 												}), Object(m.jsx)("p", {
 													children: Object(m.jsx)("h4", {
 														class: "fw-bold",
-														children: "Dollar Beans is a locked BUSD static rewards pool returning up to 6.5% daily"
+														children: "Iced Beans is a locked BUSD static rewards pool returning up to 6.5% daily"
 													})
 												}), Object(m.jsxs)("div", {
 													class: "feature-item mb-5 mb-lg-0",
@@ -859,7 +859,7 @@
 												}), Object(m.jsx)("div", {
 													class: "mt-5",
 													children: Object(m.jsx)("p", {
-														children: "Dollar Beans is a decentralized application (dApp) that allows users to invest in a rewards pool using BUSD. The dApp has three main functions: Buy Beans (Invest), Rebake Beans (Compound), and Eat Beans (Withdraw). There is a tax on early withdrawals, with the amount depending on how long the BUSD has been in the pool (the longer it has been, the lower the tax). Referral codes can be used to receive a 5% bonus on deposits made by people you refer. There are also 'Beantastic' referrals, which give higher daily returns depending on the number you have. The minimum investment is 10 BUSD and the maximum is 100,000 BUSD. There is a 1% deposit fee and a 5% withdrawal fee. The contract is fully decentralized, audited, and cannot be changed. Check the whitepaper for more details."
+														children: "Iced Beans is a decentralized application (dApp) that allows users to invest in a rewards pool using BUSD. The dApp has three main functions: Buy Beans (Invest), Rebake Beans (Compound), and Eat Beans (Withdraw). There is a tax on early withdrawals, with the amount depending on how long the BUSD has been in the pool (the longer it has been, the lower the tax). Referral codes can be used to receive a 5% bonus on deposits made by people you refer. There are also 'Beantastic' referrals, which give higher daily returns depending on the number you have. The minimum investment is 10 BUSD and the maximum is 100,000 BUSD. There is a 1% deposit fee and a 5% withdrawal fee. The contract is fully decentralized, audited, and cannot be changed. Check the whitepaper for more details."
 													})
 												})]
 											})

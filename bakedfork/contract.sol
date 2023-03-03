@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity 0.8.17;
+pragma solidity ^0.8.17;
 
 /**
  * @dev Provides information about the current execution context, including the
@@ -171,18 +171,18 @@ library Math {
     }
 }
 
-pragma solidity 0.8.17;
+pragma solidity ^0.8.17;
 
-contract DollarBeans is Context, Ownable {
+contract IcedBeans is Context, Ownable {
 
     using Math for uint256;
     address public OWNER_ADDRESS;
     bool private initialized = false;
     address BUSD = 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56;
-    address public DEV_ADDRESS = 0x8D2FC324bC00b2e06742079c901885cdede0A543;
-    address public MARKETING_ADDRESS = 0x31e3e8D5a95535d84AbC0E08A65A6D057Dbf6f9C;
-    address public CEO_ADDRESS = 0x5e58D0B704606E6713864828441B7f258411468e;
-    address public GIVEAWAY_ADDRESS = 0xe2BDD17fB7FdA71560C0F11Fe4516903F5208524;
+    address public DEV_ADDRESS = 0xc44E2059feEc2E5959FB033a59C3c0388AD19D2D;
+    address public MARKETING_ADDRESS = 0x4fce31eDe7e304d815834948eC63f780F02D901f;
+    address public CEO_ADDRESS = 0xd86Cf5406d8c1d651Cb52A08141451b0408A36E3;
+    address public GIVEAWAY_ADDRESS = 0xDe229301b208d02B6432Fe9120AC0C90cFd6e1Ae;
     address _dev = DEV_ADDRESS;
     address _marketing = MARKETING_ADDRESS;
     address _ceo = CEO_ADDRESS;
